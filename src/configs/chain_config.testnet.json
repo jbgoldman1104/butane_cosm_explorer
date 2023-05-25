@@ -1,24 +1,24 @@
 {
-  "title": "Origo Block Explorer",
-  "network": "origo_1-8587",
+  "title": "Butane Block Explorer",
+  "network": "butane_23524-1",
   "icon": "/images/icon.svg",
   "logo": {
     "default": "/images/logo.svg"
   },
   "prefix": {
-    "consensus": "origovalcons",
-    "validator": "origovaloper",
-    "account": "origo"
+    "consensus": "btanvalcons",
+    "validator": "btanvaloper",
+    "account": "btan"
   },
   "genesis": {
     "time": "2023-01-13T08:00:00",
     "height": 1
   },
-  "primaryTokenUnit": "acmu",
-  "votingPowerTokenUnit": "acmu",
+  "primaryTokenUnit": "tbbc",
+  "votingPowerTokenUnit": "tbbc",
   "tokenUnits": {
-    "acmu": {
-      "display": "cmu",
+    "tbbc": {
+      "display": "bbc",
       "exponent": 18
     }
   },
